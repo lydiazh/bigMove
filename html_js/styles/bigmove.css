@@ -1,0 +1,155 @@
+body {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*************************/
+/* navigation bar styles */
+/*************************/
+ul.navbar-nav {
+    margin-right: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-left: 50px;
+}
+@media screen and (max-width: 768px) {
+    .logo {
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width: 769px) {
+    .logo img {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .logo img {
+        height: 30px;
+    }
+}
+.navbar-default {
+    background-color: #d4e3ff;
+    margin-bottom: 0px;
+}
+.navbar-default button {
+    font-weight: bold;
+    font-size: 11px;
+}
+.navbar-default .navbar-nav>li>a {
+    line-height: 50px;
+    color: #010101;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.navbar-default .navbar-toggle {
+    margin-top: 24px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #d4e3ff !important;
+}
+
+/******************/
+/* content styles */
+/******************/
+.bannerimg {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.content {
+    background-color: #f0f2ff;
+}
+.sidebar {
+    padding-top: 20px;
+    font-size: 11px;
+}
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+.sidebar ul li {
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 13px;
+}
+.main {
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.content .spacer {
+    height: 20px;
+}
+.content .slides {
+    margin-top: 20px;
+}
+.content h1 {
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.content h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.content p {
+    line-height: 23px;
+    font-weight: lighter;
+    color: #666666;
+}
+.content img {
+    width: 100%;
+}
+
+/*****************/
+/* footer styles */
+/*****************/
+.footer {
+    background-color: #011422;
+    padding: 0px 0px 20px 0;
+    color: #aec2c3;
+    font-size: 12px;
+}
+.footer .row div {
+    padding-top: 20px;
+}
+.footer ul {
+    list-style: none;
+    padding-left: 40px;
+}
+.footer ul li {
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.footer ul li a {
+    color: #aec2c3;
+}
+.footer h3 {
+    margin: 0px 0px 5px 0px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.footer label {
+    font-weight: bold;
+    color: #ddeced;
+}
+.footer button {
+    font-size: 12px;
+    padding: 8px 20px;
+}
+
+/********************/
+/* copyright styles */
+/********************/
+.copyright {
+    background-color: #d4e3ff;
+    line-height: 35px;
+    text-align: center;
+}

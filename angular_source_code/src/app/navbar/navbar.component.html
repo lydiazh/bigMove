@@ -1,0 +1,33 @@
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" (click)="isCollapsed = !isCollapsed" 
+                aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                MENU
+            </button>
+            <div class="logo">
+                <img src="assets/logo.png">
+            </div>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" [collapse]="isCollapsed">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a routerLink="/" (click)="isCollapsed = !isCollapsed">HOME</a>
+                </li>
+                <li>
+                    <a routerLink="/about" (click)="isCollapsed = !isCollapsed">ABOUT US</a>
+                </li>
+                <li>
+                    <a routerLink="/serv"  (click)="isCollapsed = !isCollapsed"> SERVICES</a>
+                </li>
+                <li>
+                    <a routerLink="/news"  (click)="isCollapsed = !isCollapsed">NEWS</a>
+                </li>
+                <li>
+                    <a routerLink="/contact"  (click)="isCollapsed = !isCollapsed">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
